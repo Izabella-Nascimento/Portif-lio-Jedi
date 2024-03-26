@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background{
+  background: #F1E9DC;
+  width: 950px;
+  height: 550px;
+  border-radius: 30px;
+  padding: 60px;
+  display: flex;
+  gap: 20px;
+}
+
+.card{
+  background: #b45c5c;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align:left;
+  gap: 10px;
+  flex-grow: 0;
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+}
+
+.left{
+  width: 160%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.right{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  height: 230px;
+}
+
+.left article {
+  padding: 10px;
+}
+
+.right h2 {
+  margin-bottom: 10px;
+}
+
+.objectives{
+  background: #948ce2;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.motivations{
+  background: #cee367;
+  color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.hobbies{
+  background: #FFB28C;
+  color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+}
